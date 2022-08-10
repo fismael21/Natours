@@ -15,11 +15,11 @@ html {
   }
 
   @include respond(tab-port) {
-    font-size: 50%; //1rem = 8px; 8px/16px = 50%
+    font-size: 43.75%; //1rem = 7px; 7px/16px = 43.75%
   }
 
   @include respond(phone) {
-    font-size: 31.25%; //1rem = 5px; 7px/16px = 43.75%
+    font-size: 31.25%; //1rem = 5px; 5px/16px = 31.25%
   }
 
   @include respond(big-desk) {
